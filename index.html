@@ -8,7 +8,7 @@
     <title>Tic Tac Toe</title>
 
     <!-- Bootstrap -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -18,16 +18,19 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <style>
+        <style>
     .gamecell {
-        padding-bottom: 33%;
+        /*padding-bottom: 30%;*/
+        height: 30%;
         width: 30%;
-        margin-bottom: 10px;  
-        margin-right: 1%;
-        margin-left: 2%;
+        margin-top: 2%; 
+        margin-right: 2%;
     } 
     .gameboard {
-        width: 40%;
+        width: 600px;
+        height: 600px;
+        margin-right: auto;
+        margin-left: auto;
     }
     </style>
 
@@ -44,7 +47,7 @@
       </nav>
     </div>
 
-    <div class="board container gameboard">
+    <div class="gameboard">
       <div class="col-md-4 btn btn-default gamecell"></div>
       <div class="col-md-4 btn btn-default gamecell"></div>
       <div class="col-md-4 btn btn-default gamecell"></div>
